@@ -87,7 +87,7 @@ def create_user_info_window(master):
     main_frame.place(relx=0.25, rely=0.50, anchor="center")
 
 #user acc
-    employee_label = tk.Label(window, text="USER ACCOUNT INFORMATION", font=font_style1)
+    employee_label = tk.Label(window, text="User Information", font=font_style1)
     employee_label.place(relx=0.54, rely=0.30, anchor="center")
 
     user_info_frame = tk.LabelFrame(window, text="")
