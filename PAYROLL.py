@@ -145,7 +145,7 @@ def create_payroll_window(master):
     user_frame.grid(row=0, column=0, padx=5, pady=5, sticky="w")
 
 #employee
-    employee_label = tk.Label(user_frame, text="EMPLOYEE PAYROLL INFORMATIONS", font=("Times New Roman", 15, "bold"))
+    employee_label = tk.Label(user_frame, text="EMPLOYEE PAYROLL", font=("Times New Roman", 15, "bold"))
     employee_label.grid(row=0, column=0, sticky='w')
 
     image_frame = tk.Frame(user_frame)
