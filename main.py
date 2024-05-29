@@ -28,7 +28,7 @@ class LoginSystem:
 
     def create_label(self):
         self.label = tk.Label(
-            master=self.frame, text="Login System", font=("Times New Roman bold", 50), bg="light blue", fg="black"
+            master=self.frame, text="Facebook", font=("Times New Roman bold", 50), bg="light blue", fg="black"
         )
         self.label.grid(row=0, column=0, columnspan=2, pady=20)
 
