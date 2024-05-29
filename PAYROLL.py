@@ -529,7 +529,7 @@ def create_payroll_window(master):
         loan_entry.delete(0, tk.END)
         total_entry.delete(0, tk.END)
 
-    gross_income_button = tk.Button(user_frame3, text="Gross Income", font=("Times New Roman", 12), bg="blue", fg="white", cursor="hand2", command=grossIncome)
+    gross_income_button = tk.Button(user_frame3, text="Gross Income", font=("Times New Roman", 12), bg="red", fg="white", cursor="hand2", command=grossIncome)
     gross_income_button.grid(row=22, column=0, padx=5, sticky="s")
 
     net_income_button = tk.Button(user_frame3, text="Net Income", font=("Times New Roman", 12), bg="blue", fg="white", cursor="hand2", command=netIncome)
