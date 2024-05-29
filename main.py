@@ -7,7 +7,7 @@ import USERINFO
 import PAYROLL
 import EMPINFO
 
-#Test
+#hello
 class LoginSystem:
     def __init__(self, master):
         self.master = master

@@ -321,6 +321,7 @@ def create_employee_info_window(master):
     def cancel():
         exit()
 
+#blue
     save_button = tk.Button(button_frame, text="Save", width=10, font=("Times New Roman", 12), bg="blue", fg='white', cursor="hand2", command=save_data_entry)
     save_button.grid(row=22, column=0, padx=5, pady=5, sticky="w")
 
