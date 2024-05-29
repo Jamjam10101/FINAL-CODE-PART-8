@@ -59,7 +59,7 @@ class LoginSystem:
     def create_checkbox_remember(self):
         self.remember_me = tk.BooleanVar()
         self.checkbox_remember_me = tk.Checkbutton(
-            master=self.frame, text="Remember Me", variable=self.remember_me, font=("Times New Roman", 18), bg="light blue", fg="black"
+            master=self.frame, text="Tandaan moko", variable=self.remember_me, font=("Times New Roman", 18), bg="light blue", fg="black"
         )
         self.checkbox_remember_me.grid(row=4, column=1, pady=10)
 
