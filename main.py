@@ -12,7 +12,7 @@ class LoginSystem:
     def __init__(self, master):
         self.master = master
         self.master.title("Login System")
-        self.master.configure(bg="light blue")
+        self.master.configure(bg="blue")
         self.master.geometry("700x600")
         self.frame = tk.Frame(master=self.master, bg="light blue")
         self.frame.place(relx=0.5, rely=0.5, anchor="center")  # Placing the frame in the center
